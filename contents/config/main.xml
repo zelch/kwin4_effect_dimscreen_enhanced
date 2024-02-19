@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+    <kcfgfile name="" />
+    <group name="">
+        <entry name="WindowClasses" type="StringList">
+	    <label>List of application window classes that will trigger screen dimming.</label>
+	    <!--
+		FIXME: Why doesn't this work?
+	    <default>kdesu kdesu</default>
+	    <default>kdesudo kdesudo</default>
+	    <default>pinentry pinentry</default>
+	    <default>pinentry-qt pinentry-qt</default>
+	    <default>pinentry-x2go pinentry-x2go</default>
+	    <default>pinentry-gnome3 pinentry-gnome3</default>
+	    <default>pinentry-fltk pinentry-fltk</default>
+	    <default>pinentry-gtk-2 pinentry-gtk-2</default>
+	    <default>pinentry-x11 pinentry-x11</default>
+	    <default>gcr-prompter gcr-prompter</default>
+	    <default>polkit-kde-authentication-agent-1 polkit-kde-authentication-agent-1</default>
+	    <default>polkit-kde-manager polkit-kde-manager</default>
+	    <default> org.kde.kdesu</default>
+	    <default> org.kde.polkit-kde-authentication-agent-1</default>
+	    -->
+	    <default>kdesu kdesu,kdesudo kdesudo,pinentry pinentry,pinentry-qt pinentry-qt,pinentry-x2go pinentry-x2go,pinentry-gnome3 pinentry-gnome3,pinentry-fltk pinentry-fltk,pinentry-gtk-2 pinentry-gtk-2,pinentry-x11 pinentry-x11,gcr-prompter gcr-prompter,polkit-kde-authentication-agent-1 polkit-kde-authentication-agent-1,polkit-kde-manager polkit-kde-manager, org.kde.kdesu, org.kde.polkit-kde-authentication-agent-1</default>
+	</entry>
+	<entry name="Duration" type="Int">
+	    <label>Time in ms to fade in/out</label>
+	    <default>250</default>
+	    <min>0</min>
+	</entry>
+	<entry name="Brightness" type="Double">
+	    <label>Brightness of dimming effect</label>
+	    <default>0.67</default>
+	    <min>0.00</min>
+	    <max>1.00</max>
+	</entry>
+	<entry name="Saturation" type="Double">
+	    <label>Saturation of dimming effect</label>
+	    <default>0.67</default>
+	    <min>0.00</min>
+	    <max>1.00</max>
+	</entry>
+    </group>
+</kcfg>
+
