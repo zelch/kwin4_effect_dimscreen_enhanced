@@ -3,48 +3,9 @@
     "KPlugin": {
         "Authors": [
             {
-                "Email": "warp@aehallh.com",
-                "Name": "Elizabeth Loss-Cutler-Hull"
-            },
-	    {
-                "Email": "mgraesslin@kde.org, vlad.zahorodnii@kde.org",
-                "Name": "Martin Flöser, Vlad Zahorodnii",
-                "Name[ar]": "مارتن فلوسر، فلاد زاهورودني",
-                "Name[be]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[bg]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[ca@valencia]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[ca]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[cs]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[de]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[en_GB]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[es]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[et]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[eu]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[fi]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[fr]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[gl]": "Martin Flöser e Vlad Zahorodnii.",
-                "Name[ia]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[it]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[ja]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[ka]": "Vlad Zahorodnii",
-                "Name[ko]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[nl]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[nn]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[pl]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[pt]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[pt_BR]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[ru]": "Martin Flöser, Влад Загородний",
-                "Name[sk]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[sl]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[sv]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[ta]": "மார்ட்டின் ஃபுலோசர், விலாட் ஜாஹொரிடுனி",
-                "Name[tr]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[uk]": "Martin Flöser, Влад Завгородній",
-                "Name[vi]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[x-test]": "xxMartin Flöser, Vlad Zahorodniixx",
-                "Name[zh_CN]": "Martin Flöser, Vlad Zahorodnii",
-                "Name[zh_TW]": "Martin Flöser, Vlad Zahorodnii"
-	    }
+                "Email": "warp@aehallh.com, mgraesslin@kde.org, vlad.zahorodnii@kde.org",
+                "Name": "Elizabeth Loss-Cutler-Hull, Martin Flöser, Vlad Zahorodnii"
+            }
         ],
         "Category": "Focus",
         "Description": "Darkens the entire screen when requesting root privileges.",
